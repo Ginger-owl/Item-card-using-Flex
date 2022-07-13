@@ -9,9 +9,7 @@
   --card-bg-color: hsl(0, 0%, 100%);
   --body-text-size: 14px;
   --primary-font-family: 'Montserrat', sans-serif;
-  --primary-font-weights: 500, 700;
   --secondary-font-family: 'Fraunces', serif;
-  --secondary-font-weights: 700;
 }
 
 
@@ -81,7 +79,7 @@ h1 {
     width: 85%;
     line-height: 1.5;
     color: var(--paragraph-color);
-    font-size: 14px;
+    font-size: var(--body-text-size);
 }
 
 .prices {
